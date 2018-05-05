@@ -73,52 +73,11 @@ The whole project is licensed under a GNU Affero GPL v3.0 license. See `LICENSE`
 for more details. 
 
 ### Dependencies
-This project uses a set of libraries as depicted below:
-* Skulpt
-* Codemirror
-* Bootstrap
-* jQuery
-* Tether
-* Blob
-* File-saver 
-* Webpack  
-
-Their relative licenses are listed below.
+This project uses a set of libraries as depicted below. Check the FOSSA link
+below to discover more about their licensing.
 
 #### Third Party Licensing
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FOpen-Education-Polito%2Foep-python-online.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FOpen-Education-Polito%2Foep-python-online?ref=badge_large)
-```
-The MIT License (MIT)
-
-Copyright (c) 2011-2017 Twitter, Inc. (Bootstrap)
-Copyright (c) 2011-2017 The Bootstrap Authors (Bootstrap)
-Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others
-(Codemirror)
-Copyright JS Foundation and other contributors, https://js.foundation/ (jQuery,
-Webpack)
-Copyright (c) 2014-2017 HubSpot, Inc. (Tether)
-Copyright © 2016 Eli Grey (File-Saver, Blob)
-Copyright (c) 2009-2016 Scott Graham and contributors to the Skulpt Project
-(Skulpt)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-```
 
 ## Contributing
 This project follows the [Contributor
