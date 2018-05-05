@@ -73,7 +73,7 @@ The whole project is licensed under a GNU Affero GPL v3.0 license. See `LICENSE`
 for more details. 
 
 ### Dependencies
-Check the FOSSA link below to discover more about their licensing.
+Check the FOSSA link below to discover more about dependencies' licensing.
 
 #### Third Party Licensing
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FOpen-Education-Polito%2Foep-python-online.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FOpen-Education-Polito%2Foep-python-online?ref=badge_large)
