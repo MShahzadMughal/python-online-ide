@@ -68,7 +68,7 @@ For reference:
 
 
 ## Licensing
-The whole project is licensed under a GNU AGPL v3.0 license. See `LICENSE` file
+The whole project is licensed under a GNU Affero GPL v3.0 license. See `LICENSE` file
 for more details. 
 
 ### Dependencies
