@@ -35,7 +35,7 @@
   "dependencies": {
     "popper.js": "^1.12.9",
     "file-saver": "^1.3.3",
-    "blob": "0.0.4",
+    "blob": "0.0.5",
     "bootstrap": "^4.0.0-alpha.6",
     "codemirror": "^5.33.0",
     "skulpt": "^0.11.1",
