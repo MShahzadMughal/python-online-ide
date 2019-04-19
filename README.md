@@ -28,14 +28,15 @@ able to test them straightaway.
    It also runs the `postinstall.sh` BASH script which clones the
    [exercises](https://github.com/Open-Education-Polito/oep-esercizi-python)
    repository allowing to have the complete experience. 
-3. Open the HTML file `dist/index.html` in a browser.  
+3. Run `node server.js`
+4. Browse `http://localhost:3000` to check your website.
 4. Enjoy!
 
 ### Docker (dev) Setup
 1. Clone this repository using `git clone git@github.com:open-education-polito/python-online.git`
 2. Run `docker build . -t oep-python-online` 
-3. Run `docker run -p 8080:8080 oep-python-online`
-4. Browse `localhost:8080` and you should find the application up and running.
+3. Run `docker run -p 3000:3000 oep-python-online`
+4. Browse `localhost:3000` and you should find the application up and running.
 
 ### Docker (prod) Setup
 If you want a prod docker, you should change the
