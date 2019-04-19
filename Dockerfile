@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 # Copy package.json
 COPY package.json ./
 # Install
-RUN yarn install
+RUN npm install
 # Copy the rest of the app
 COPY . .
 # Expose port
