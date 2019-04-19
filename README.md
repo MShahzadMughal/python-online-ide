@@ -31,11 +31,22 @@ able to test them straightaway.
 3. Open the HTML file `dist/index.html` in a browser.  
 4. Enjoy!
 
-### Docker Setup
+### Docker (dev) Setup
 1. Clone this repository using `git clone git@github.com:open-education-polito/python-online.git`
 2. Run `docker build . -t oep-python-online` 
 3. Run `docker run -p 8080:8080 oep-python-online`
 4. Browse `localhost:8080` and you should find the application up and running.
+
+### Docker (prod) Setup
+If you want a prod docker, you should change the
+```bash
+RUN npm run build
+```
+line into
+```bash
+RUN npm run build-prod
+```
+in order to use the prod npm profile.
 
 ### Hacking
 Since this project has different purposes, it has been developed using JS
