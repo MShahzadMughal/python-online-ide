@@ -17,7 +17,8 @@ Furthermore, it is possible to read a PDF next to the input/output boxes.
 It is also possible to directly insert some snippets of code in order to be
 able to test them straightaway. 
 
-### How to install
+## Setup
+### Manual setup 
 1. Download and unpack the latest release
    [here](https://github.com/Free-Polito/fare-python-online/releases)
 2. Enter the folder and install the dependencies:  
@@ -29,6 +30,12 @@ able to test them straightaway.
    repository allowing to have the complete experience. 
 3. Open the HTML file `dist/index.html` in a browser.  
 4. Enjoy!
+
+### Docker Setup
+1. Clone this repository using `git clone git@github.com:open-education-polito/python-online.git`
+2. Run `docker build . -t oep-python-online` 
+3. Run `docker run -p 8080:8080 oep-python-online`
+4. Browse `localhost:8080` and you should find the application up and running.
 
 ### Hacking
 Since this project has different purposes, it has been developed using JS
