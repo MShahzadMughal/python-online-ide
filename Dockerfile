@@ -12,4 +12,4 @@ RUN npm run build
 # Expose port
 EXPOSE 8080
 # Start
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
