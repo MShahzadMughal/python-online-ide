@@ -7,6 +7,8 @@ COPY package.json ./
 RUN npm install
 # Copy the rest of the app
 COPY . .
+# Build app
+RUN npm run build
 # Expose port
 EXPOSE 8080
 # Start
