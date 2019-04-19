@@ -31,11 +31,11 @@ module.exports = {
       // Defining variables to pass to app.js
       new webpack.DefinePlugin({
         "fare" : false,
-        "book": false,
-        "saveit" : false,
-        "exercises" : false,
-        "turtle" : false,
-        "robot" : true,
+        "book": true,
+        "saveit" : true,
+        "exercises" : true,
+        "turtle" : true,
+        "robot" : false,
         // Insert the server API endpoint
         "postUrl" : JSON.stringify("xxx.xxx.xxx.xxx/python-online-server/api/post_file")
       }),
