@@ -1,6 +1,6 @@
 FROM node:8
 # ARGS
-ARG mode=build
+ARG MODE 
 # Workdir
 WORKDIR /usr/src/app
 # Copy package.json
@@ -10,7 +10,7 @@ RUN npm install
 # Copy the rest of the app
 COPY . .
 # Build app
-RUN npm run mode 
+RUN npm run $MODE 
 # Expose port
 EXPOSE 8080
 # Start

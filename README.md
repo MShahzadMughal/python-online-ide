@@ -33,20 +33,19 @@ able to test them straightaway.
 
 ### Docker (dev) Setup
 1. Clone this repository using `git clone git@github.com:open-education-polito/python-online.git`
-2. Run `docker build . -t oep-python-online` 
+2. Run `docker build . -t oep-python-online --build-arg MODE=build` 
 3. Run `docker run -p 3000:3000 oep-python-online`
 4. Browse `localhost:3000` and you should find the application up and running.
 
 ### Docker (prod) Setup
-If you want a prod docker, you should change the
-```bash
-RUN npm run build
-```
-line into
-```bash
-RUN npm run build-prod
-```
-in order to use the prod npm profile.
+If you want a prod docker, you should change step #2 into:
+2. Run `docker build . -t oep-python-online --build-arg MODE=build-prod` 
+
+### ENVS 
+If you want to avoid passing the `MODE=build/build-prod` ENV, you can simply
+set the env in your CLI with `export MODE=<some_value>` and then run 
+`docker build . -t oep-python-online --build-arg MODE`. In this way, the local
+env will be passed to Docker.
 
 ### Hacking
 Since this project has different purposes, it has been developed using JS
