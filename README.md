@@ -39,7 +39,8 @@ able to test them straightaway.
 
 ### Docker (prod) Setup
 If you want a prod docker, you should change step #2 into:
-2. Run `docker build . -t oep-python-online --build-arg MODE=build-prod` 
+
+Run `docker build . -t oep-python-online --build-arg MODE=build-prod` 
 
 ### ENVS 
 If you want to avoid passing the `MODE=build/build-prod` ENV, you can simply
