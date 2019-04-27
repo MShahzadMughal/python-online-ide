@@ -24,8 +24,8 @@ able to test them straightaway.
 2. Enter the folder and install the dependencies:  
    `npm install`.   
    This will automagically also create the `bundle.js` file by running `npm run
-   build`.
-   It also runs the `postinstall.sh` BASH script which clones the
+   build` by invoking `postinstall.sh` BASH script. Furthermore, this script
+   will clone the
    [exercises](https://github.com/Open-Education-Polito/oep-esercizi-python)
    repository allowing to have the complete experience. 
 3. Run `node server.js`
