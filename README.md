@@ -19,8 +19,7 @@ able to test them straightaway.
 
 ## Setup
 ### Manual setup 
-1. Download and unpack the latest release
-   [here](https://github.com/Free-Polito/fare-python-online/releases)
+1. Clone this repo using `git clone git@github.com:open-education-polito/python-online.git`
 2. Enter the folder and install the dependencies:  
    `npm install`.   
    This will automagically also create the `bundle.js` file by running `npm run
