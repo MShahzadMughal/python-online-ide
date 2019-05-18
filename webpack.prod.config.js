@@ -1,5 +1,6 @@
 // Versione di prod con le compressioni attive
 const path = require('path');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 var webpack = require("webpack");
 
 module.exports = {
@@ -35,27 +36,6 @@ module.exports = {
                 'NODE_ENV': JSON.stringify('production')        
             }
         }),
-        new webpack.optimize.UglifyJsPlugin({
-                    output: {
-                        comments: false
-                    },
-                    mangle: true,
-                    sourcemap: false,
-                    debug: false,
-                    minimize: true,
-                    compress: {
-                        warnings: false,
-                        screw_ie8: true,
-                        conditionals: true,
-                        unused: true,
-                        comparisons: true,
-                        sequences: true,
-                        dead_code: true,
-                        evaluate: true,
-                        if_return: true,
-                        join_vars: true
-                    }
-        }),
         //Merge chunks 
         new webpack.optimize.AggressiveMergingPlugin(), 
 
@@ -71,5 +51,20 @@ module.exports = {
           "postUrl" : JSON.stringify("xxx.xxx.xxx.xxx/python-online-server/api/post_file")
         }),
     ],
+    optimization: {
+    minimizer: [
+      // we specify a custom UglifyJsPlugin here to get source maps in production
+      new UglifyJsPlugin({
+        cache: true,
+        parallel: true,
+        uglifyOptions: {
+          compress: false,
+          ecma: 6,
+          mangle: true
+        },
+        sourceMap: true
+      })
+    ]
+  }
 };
 
