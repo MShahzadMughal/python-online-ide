@@ -4,6 +4,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 var webpack = require("webpack");
 
 module.exports = {
+    mode: 'production',
     devtool: 'source-map',
     entry: './src/app.js',
     output: {
@@ -41,12 +42,12 @@ module.exports = {
 
         // Defining variables to pass to app.js
         new webpack.DefinePlugin({
-          "fare" : false,
+          "fare" : true,
           "book": false,
-          "saveit" : false,
+          "saveit" : true,
           "exercises" : false,
           "turtle" : false,
-          "robot" : true,
+          "robot" : false,
           // Insert the server API endpoint
           "postUrl" : JSON.stringify("xxx.xxx.xxx.xxx/python-online-server/api/post_file")
         }),

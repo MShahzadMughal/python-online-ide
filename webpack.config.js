@@ -2,6 +2,7 @@ const path = require('path');
 var webpack = require("webpack");
 
 module.exports = {
+    mode: 'development',
     entry: './src/app.js',
     output: {
         filename: 'bundle.js',
