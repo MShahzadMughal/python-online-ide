@@ -42,7 +42,7 @@
     "file-saver": "^2.0.2",
     "popper.js": "^1.15.0",
     "skulpt": "^0.11.1",
-    "tether": "^1.4.6",
+    "tether": "^1.4.7",
     "uglifyjs-webpack-plugin": "^2.1.3"
   }
 }
