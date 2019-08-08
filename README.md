@@ -1,4 +1,4 @@
-# FARE Python Online
+# OEP Python Online
 ![CircleCI branch](https://img.shields.io/circleci/project/github/open-education-polito/python-online/master.svg)
 [![conduct](https://img.shields.io/badge/code%20of%20conduct-contributor%20covenant-green.svg?style=flat-square)](http://contributor-covenant.org/version/1/4/)
 [![AGPL License](http://img.shields.io/badge/license-AGPL%20v3-red.svg?style=flat-square)](https://www.gnu.org/licenses/agpl-3.0.en.html) 
@@ -7,7 +7,7 @@
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FOpen-Education-Polito%2Foep-python-online.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FOpen-Education-Polito%2Foep-python-online?ref=badge_shield)
 ## What
 
-FARE Python Online is a web application to run Python 3.x by means of a web
+OEP Python Online is a web application to run Python 3.x by means of a web
 browser interface.
 It presents a menu and two columns, one for inserting the source code and the
 other one to see the results. 
