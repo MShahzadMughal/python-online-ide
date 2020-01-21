@@ -37,7 +37,7 @@
   "dependencies": {
     "blob": "0.0.5",
     "bootstrap": "^4.4.1",
-    "codemirror": "^5.50.2",
+    "codemirror": "^5.51.0",
     "express": "^4.17.1",
     "file-saver": "^2.0.2",
     "popper.js": "^1.16.0",
