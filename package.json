@@ -35,7 +35,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "blob": "0.0.5",
+    "blob": "0.1.0",
     "bootstrap": "^4.4.1",
     "codemirror": "^5.52.2",
     "express": "^4.17.1",
